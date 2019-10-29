@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 html,
@@ -97,3 +98,65 @@ form {
     margin-top: 16px;
   }
 }
+
+.ui.form input:not([type]), .ui.form input[type=file], .ui.form input[type=password], .ui.form input[type=text] {
+  border: 1px solid #1F5C70 !important;
+}
+.LoginForm{
+  // border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+
+  form{
+    border: 2px solid #14586b;;
+    height: 20em;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05), 0 0px 40px rgba(0,0,0,0.08);
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    
+  }
+  input.insert{
+    padding: 10px;
+    margin: 15px;
+    max-width: 150px;
+  }
+}
+
+
+button {
+  max-width: 1020px;
+  margin: 15px 0;
+  padding: 12px 20px;
+  border-style: none;
+  background-color: #14586b;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+// .CardInput {
+//   padding: 7px 0;
+//   width: 100%;
+//   font-family: inherit;
+//   font-size: 14px;
+//   border-top: 0;
+//   border-right: 0;
+//   border-bottom: 1px solid #ddd;
+//   border-left: 0;
+//   transition: border-bottom-color 0.25s ease-in;
+// }
+//   &:focus {
+//     border-bottom-color: #e5195f;
+//     outline: 0;
+//   }
+// `;
